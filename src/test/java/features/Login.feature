@@ -22,13 +22,13 @@ Feature: Login
   Scenario: Unsuccessful login with filled username and empty password
     Given I am on the login page
     When I entered my username "standard_user" and leave the password field empty
-    And I clicked the login button
+    And I clicked on the login button
     Then I should see the error message "You need Password!" 
 
   Scenario: Unsuccessful login with empty username and filled password
     Given I am on the login page
     When I leave the username field empty and enter my password "secret_sauce"
-    And I clicked the login button
+    And I clicked on the login button
     Then I should see the error message "You need Username!"
   
   Scenario: Unsuccessful login with empty username and password
