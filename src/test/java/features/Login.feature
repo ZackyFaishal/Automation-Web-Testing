@@ -29,3 +29,9 @@ Feature: Login
     When I leave the username field empty and enter my password "secret_sauce"
     And I clicked the login button
     Then I should see the error message "You need Username!"
+  
+  Scenario: Unsuccessful login with empty username and password
+    Given I am on the login page
+    When I leave the username and password field empty
+    And I clicked on the login button
+    Then I should see the error message "You need Username & Password !"
