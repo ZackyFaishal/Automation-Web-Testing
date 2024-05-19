@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-05-19T02:47:49.174Z",
+        "start_timestamp": "2024-05-19T03:14:04.920Z",
         "before": [
           {
             "result": {
-              "duration": 9882499700,
+              "duration": 3719375000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 320519300,
+              "duration": 471186100,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 689400,
+              "duration": 2828000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 461323400,
+              "duration": 381474200,
               "status": "passed"
             },
             "line": 5,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 278092300,
+              "duration": 185941900,
               "status": "passed"
             },
             "line": 6,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 29407800,
+              "duration": 59876100,
               "status": "passed"
             },
             "line": 7,
@@ -94,11 +94,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-05-19T02:48:00.321Z",
+        "start_timestamp": "2024-05-19T03:14:09.873Z",
         "before": [
           {
             "result": {
-              "duration": 6886972800,
+              "duration": 4900197600,
               "status": "passed"
             },
             "match": {
@@ -113,7 +113,7 @@
         "after": [
           {
             "result": {
-              "duration": 199902200,
+              "duration": 1352297100,
               "status": "passed"
             },
             "match": {
@@ -126,7 +126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1474600,
+              "duration": 1907000,
               "status": "passed"
             },
             "line": 10,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 308700200,
+              "duration": 472236200,
               "status": "passed"
             },
             "line": 11,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 151460500,
+              "duration": 128937000,
               "status": "passed"
             },
             "line": 12,
@@ -172,10 +172,107 @@
           },
           {
             "result": {
-              "duration": 46411400,
+              "duration": 72662700,
               "status": "passed"
             },
             "line": 13,
+            "name": "I should see the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.Result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-19T03:14:16.820Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3067941700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utility.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Unsuccessful login with invalid credentials. The username not registered.",
+        "description": "",
+        "id": "login;unsuccessful-login-with-invalid-credentials.-the-username-not-registered.",
+        "after": [
+          {
+            "result": {
+              "duration": 335881000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utility.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on the login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 307271300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I entered my username \"standard_nich\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_nich\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.i_entered_my_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119144600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I clicked on the login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.i_clicked_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53243000,
+              "status": "passed"
+            },
+            "line": 19,
             "name": "I should see the error message \"Epic sadface: Username and password do not match any user in this service\"",
             "match": {
               "arguments": [
