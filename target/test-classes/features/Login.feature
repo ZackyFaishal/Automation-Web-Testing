@@ -16,9 +16,7 @@ Feature: Login
     Given I am on the login page
     When I entered my username "standard_nich" and password "secret_sauce"
     And I clicked on the login button
-<<<<<<< HEAD
     Then I should see the error message "Username and password do not match any user in this service"
-=======
     Then I should see the error message "Epic sadface: Username and password do not match any user in this service"
 
   Scenario: Unsuccessful login with filled username and empty password
@@ -38,4 +36,3 @@ Feature: Login
     When I leave the username and password field empty
     And I clicked on the login button
     Then I should see the error message "You need Username & Password !"
->>>>>>> 9582687401336da33fbfa7cb470e832394badd61
