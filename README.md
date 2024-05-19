@@ -11,9 +11,11 @@ web-testing/
 │   └── test/
 │       ├── java/
 │       │   ├── stepdefinitions/
-│       │   │   └── LoginSteps.java
+│       │   │   ├── LoginSteps.java
+│       │   │   └── LogoutSteps.java
 │       │   ├── features/
-│       │   │   └── Login.feature
+│       │   │   ├── Login.feature
+│       │   │   └── Logout.feature
 │       │   ├── pages/
 │       │   │   ├── HomePage.java
 │       │   │   └── LoginPage.java
@@ -89,10 +91,14 @@ https://github.com/ZackyFaishal/Automation-Web-Testing.git
 ```
 mvn test
 ```
+![SS mvn test](https://github.com/ZackyFaishal/Automation-Web-Testing/assets/101083495/59e301e9-31b2-4664-a9be-19c29c821ac3)
+
 2. Untuk melihat hasil report testing, jalankan perintah berikut pada terminal :
 ```
 mvn site
 ```
+![SS mvn site](https://github.com/ZackyFaishal/Automation-Web-Testing/assets/101083495/f747eef8-c17d-42f1-803c-af87c908fa91)
+
 3. Buka hasil report pada file `\target\cucumber-html-reports.html` dalam browser.
 
 # Authors 
