@@ -34,8 +34,7 @@ public class LoginSteps {
         assertEquals("https://www.saucedemo.com/inventory.html", currentUrl);
     }
 
-//
-//    //SKENARIO 2
+  //SKENARIO 2
 //
     @Then("I should see the error message {string}")
     public void Result(String errorMessage) {
@@ -46,19 +45,3 @@ public class LoginSteps {
         assertEquals(errorMessage, actualErrorMessage);
     }
 }
-
-//    @Then("I should remain on the login page")
-//    public void verifyRemainOnLoginPage() {
-//        String currentUrl = driver.getCurrentUrl();
-//        assertEquals(currentUrl,"https://www.saucedemo.com/") ;
-//    }
-//
-//    @Then("I should see the error message {string}")
-//    public void verifyErrorMessage(String errorMessage) {
-//        String actualErrorMessage = validateError();
-//        //String actualErrorMessage = driver.findElement(By.cssSelector(".error-message-container.error")).getText();
-//        System.out.println("Expected error message: " + errorMessage);
-//        System.out.println("Actual error message: " + actualErrorMessage);
-//        assertEquals(errorMessage, actualErrorMessage);
-//    }
-//}

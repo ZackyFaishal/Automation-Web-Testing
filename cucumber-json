@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-05-19T03:14:04.920Z",
+        "start_timestamp": "2024-05-19T08:42:40.198Z",
         "before": [
           {
             "result": {
-              "duration": 3719375000,
+              "duration": 12398001700,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 471186100,
+              "duration": 171091000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2828000,
+              "duration": 3133800,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 381474200,
+              "duration": 382118900,
               "status": "passed"
             },
             "line": 5,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 185941900,
+              "duration": 399146100,
               "status": "passed"
             },
             "line": 6,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 59876100,
+              "duration": 155903300,
               "status": "passed"
             },
             "line": 7,
@@ -94,11 +94,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-05-19T03:14:09.873Z",
+        "start_timestamp": "2024-05-19T08:42:54.496Z",
         "before": [
           {
             "result": {
-              "duration": 4900197600,
+              "duration": 6329709900,
               "status": "passed"
             },
             "match": {
@@ -113,7 +113,7 @@
         "after": [
           {
             "result": {
-              "duration": 1352297100,
+              "duration": 240880500,
               "status": "passed"
             },
             "match": {
@@ -126,7 +126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1907000,
+              "duration": 2576800,
               "status": "passed"
             },
             "line": 10,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 472236200,
+              "duration": 280102800,
               "status": "passed"
             },
             "line": 11,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 128937000,
+              "duration": 113709300,
               "status": "passed"
             },
             "line": 12,
@@ -172,15 +172,16 @@
           },
           {
             "result": {
-              "duration": 72662700,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]Username and passwor...\u003e but was:\u003c[Epic sadface: ]Username and passwor...\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat StepDefinitions.LoginSteps.Result(LoginSteps.java:46)\r\n\tat ✽.I should see the error message \"Username and password do not match any user in this service\"(file:///C:/POLBAN%20MATERI/SEMESTER%206/Pengujian%20Perangkat%20Lunak/Praktek/Week%2011/Automation-Web-Testing/src/test/java/features/Login.feature:13)\r\n",
+              "duration": 76095500,
+              "status": "failed"
             },
             "line": 13,
-            "name": "I should see the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "name": "I should see the error message \"Username and password do not match any user in this service\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "val": "\"Username and password do not match any user in this service\"",
                   "offset": 31
                 }
               ],
@@ -191,11 +192,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-05-19T03:14:16.820Z",
+        "start_timestamp": "2024-05-19T08:43:01.586Z",
         "before": [
           {
             "result": {
-              "duration": 3067941700,
+              "duration": 2739903500,
               "status": "passed"
             },
             "match": {
@@ -210,7 +211,7 @@
         "after": [
           {
             "result": {
-              "duration": 335881000,
+              "duration": 275223300,
               "status": "passed"
             },
             "match": {
@@ -223,7 +224,7 @@
         "steps": [
           {
             "result": {
-              "duration": 998900,
+              "duration": 790100,
               "status": "passed"
             },
             "line": 16,
@@ -235,7 +236,7 @@
           },
           {
             "result": {
-              "duration": 307271300,
+              "duration": 628900600,
               "status": "passed"
             },
             "line": 17,
@@ -257,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 119144600,
+              "duration": 233332100,
               "status": "passed"
             },
             "line": 18,
@@ -269,15 +270,16 @@
           },
           {
             "result": {
-              "duration": 53243000,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]Username and passwor...\u003e but was:\u003c[Epic sadface: ]Username and passwor...\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat StepDefinitions.LoginSteps.Result(LoginSteps.java:46)\r\n\tat ✽.I should see the error message \"Username and password do not match any user in this service\"(file:///C:/POLBAN%20MATERI/SEMESTER%206/Pengujian%20Perangkat%20Lunak/Praktek/Week%2011/Automation-Web-Testing/src/test/java/features/Login.feature:19)\r\n",
+              "duration": 106270100,
+              "status": "failed"
             },
             "line": 19,
-            "name": "I should see the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "name": "I should see the error message \"Username and password do not match any user in this service\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "val": "\"Username and password do not match any user in this service\"",
                   "offset": 31
                 }
               ],

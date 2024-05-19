@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.481 s - in runner.TestRunner
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 33.393 s <<< FAILURE! - in runner.TestRunner
+Unsuccessful login with invalid password(Login)  Time elapsed: 7.075 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]Username and passwor...> but was:<[Epic sadface: ]Username and passwor...>
+
+Unsuccessful login with invalid credentials. The username not registered.(Login)  Time elapsed: 4.006 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]Username and passwor...> but was:<[Epic sadface: ]Username and passwor...>
+
